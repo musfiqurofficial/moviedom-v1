@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Apps",
+    "drop_menu": [
+      {
+        "name": "Software",
+        "route": "/software"
+      },
+      {
+        "name": "Games",
+        "route": "/games"
+      }
+    ]
+  },
+  {
+    "outer": true,
+    "name": "<span class=\" d-inline-flex align-items-center gap-1 \"> <i class=\"fas fa-tv text-danger\"></i> LIVE TV</span>",
+    "drop_menu": [
+      {
+        "name": "Live TV 1",
+        "url": "http://172.16.100.100/"
+      },
+      {
+        "name": "Live TV 2",
+        "url": "http://bigtv.live/"
+      }
+    ]
+  },
+  {
+    "outer": true,
+    "name": "FTP",
+    "drop_menu": [
+      {
+        "name": "FNF",
+        "url": "http://103.82.8.194/"
+      },
+      {
+        "name": "Sam ",
+        "url": "http://172.16.50.4/"
+      },
+      {
+        "name": "Natural BD",
+        "url": "https://naturalbd.com/"
+      },
+      {
+        "name": "Ebox",
+        "url": "http://fileserver.ebox.live/"
+      },
+      {
+        "name": "Explore",
+        "url": "http://103.222.20.150/"
+      }
+    ]
+  },
+  {
+    "name": "<div class=\"btn btn-primary d-block px-1 py-1\" style=\"font-size:14px; font-weight:500;\"></i>OLD FTP</div>",
+    "url": "http://primary.cinehub24.com/"
+  },
+  {
+    "name": "<span><i class=\"fas fa-user-circle\"></i> Request</span>",
+    "route": "/request"
+  }
+]

@@ -1,0 +1,30 @@
+:root {
+    --bg: #000;
+    --text: #bbb;
+    --link: hotpink;
+    --logo-size: 130px;
+}
+
+.footer {
+    background-color: var(--bg);
+    color: var(--text);
+    display: none;
+}
+.footer-container{
+    padding: 1rem 1.4rem;
+    display: flex;
+    gap: 10;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    width: var(--logo-size);
+}
+
+.footer a{
+    color: var(--link);
+    text-decoration: 1.4px underline wavy;
+    font-weight: 500;
+}
