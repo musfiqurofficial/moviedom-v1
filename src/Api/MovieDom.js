@@ -82,7 +82,7 @@ const OTHER_ORIGINS = [
 export const MainServerURL = "http://103.112.150.230/"; //http://203.76.96.50/
 export const accessible_urls = [...DEV_URLS, MainServerURL, ...OTHER_ORIGINS];
 class MovieDom {
-  // app name --------------------------------------
+  // app name --------------------------------
   appName = "Smile Dot Net";
   baseUrl = `${MainServerURL}/api/v1`;
   async getGenres(type) {
